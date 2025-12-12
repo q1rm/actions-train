@@ -22,7 +22,7 @@ jobs:
 
       - name: list files
         run: |
-          echo: "repo ${{ github.repository }} files:"
+          echo "repo ${{ github.repository }} files:"
           tree
 
   
