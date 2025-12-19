@@ -21,6 +21,6 @@ jobs:
         run: echo "Hello ${{inputs.who-to-great}}
 
       - id: time
-        run: echo "time=$(date) >> GITHUB_OUTPUT"
+        run: echo "time=$(date)" >> $GITHUB_OUTPUT
         
       
