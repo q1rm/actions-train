@@ -18,7 +18,7 @@ jobs:
       current-time: ${{ steps.time.outputs.time }}
     steps:
       - name: Great
-        run: echo "Hello ${{inputs.who-to-great}}
+        run: echo "Hello ${{inputs.who-to-great}}"
 
       - id: time
         run: |
